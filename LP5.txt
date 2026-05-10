@@ -1,3 +1,4 @@
+hpc1
 %%writefile bfs_dfs_omp.cpp
 #include 
 #include 
@@ -135,6 +136,7 @@ Visited: 4
 Visited: 3
 Visited: 1
 
+hpc2
 %%writefile parallel_bubble_merge.cpp
 
 #include 
@@ -275,6 +277,7 @@ Parallel Bubble Sort Time: 0.857316 sec
 Sequential Merge Sort Time: 0.010069 sec
 Parallel Merge Sort Time: 0.00569728 sec
 
+hpc3
 %%writefile minmax.cpp
 #include 
 #include 
@@ -351,6 +354,7 @@ Maximum value: 9
 Sum: 45
 Average: 5
 
+hpc5_1
 %%writefile vector_add.cu
 
 #include 
@@ -406,6 +410,7 @@ Writing vector_add.cu
 nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
 Result: 6 6 6 6 6 
 
+hpc5_2
 %%writefile matrix_mul.cu
 
 #include
@@ -499,6 +504,7 @@ Result Matrix:
 120 99 78 
 DL
 
+dl1
 %%writefile boston_housing_model.py
 import numpy as np
 import pandas as pd
@@ -574,6 +580,7 @@ plt.ylabel("Loss")
 plt.show()
      
 
+dl2
 %%writefile imdb_sentiment_model.py
 import numpy as np
 import pandas as pd
@@ -673,6 +680,7 @@ loss, accuracy = model.evaluate(X_test, y_test)
 print("\nFinal Accuracy:", accuracy)
      
 
+dl3cnn
 %%writefile fashion_mnist_model.py
 import numpy as np
 from tensorflow import keras
